@@ -1,0 +1,50 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #6D07AB;
+        }
+
+        .myContainer {
+            background-color: white;
+            margin: 3rem auto;
+            width: 50%;
+            border-radius: 7px;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        h1 {
+            color: #485657;
+            font-size: 30px;
+        }
+
+        h2 {
+            color: #9E9E9E;
+            font-size: 17px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="password"] {
+            background-color: #EEF0EF;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="password"],
+        .form-check-label {
+            border: none;
+        }
+
+        .form-check-label a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .btn-primary {
+            width: 100%;
+        }
