@@ -6,25 +6,56 @@
 
         body {
             background-color: #6D07AB;
+                position: relative;
+                padding-left: 10rem;
+                padding-right: 10rem;
+        }   
+        .form-group {
+            padding-bottom: 0.4rem;
+            position: relative;
+          }
+
+        .icon_data {
+            color: #939496;
+            width: 2.5rem;
+            text-align: left;
+            padding: 1rem;
+            margin-top: -0.8rem;
+            font-size: 1.3rem;
+            position: absolute;
+            top: 6px;
+          }
+          .input_data {
+            font-size: 1rem;
+            padding-left: 3rem;
         }
 
         .myContainer {
             background-color: white;
             margin: 3rem auto;
-            width: 50%;
+            position: relative;
             border-radius: 7px;
-            text-align: center;
             padding: 2rem;
+        }
+        .chck_box{
+            font-size: 13px;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            left: 3%;
         }
 
         h1 {
             color: #485657;
             font-size: 30px;
+            text-align: center;
         }
 
         h2 {
             color: #9E9E9E;
             font-size: 17px;
+            text-align: center;
+
         }
 
         .form-group input[type="text"],
@@ -41,7 +72,7 @@
         }
 
         .form-check-label a {
-            color: blue;
+            color: #212423;
             text-decoration: underline;
         }
 
