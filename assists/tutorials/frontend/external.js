@@ -521,6 +521,19 @@ let examplesCommon = () => {
 // H**** MIZ***
 // ipucu: charAt, substring, indexOf, döngü, karar mekanizma
 
+
+
+let maskingName = () => {
+    const nameSurname = prompt("İsim ve soyisim girin (ad soyad): ");
+    const names = nameSurname.split(" ");
+    let finalName;
+    names.forEach(function(name, index) {
+        finalName = finalName + " " +  name.charAt(0).toUpperCase() + "*".repeat(name.length - 1);
+    });
+    console.log(finalName);
+}
+maskingName();
+
 /////////////////////////////////////////////
 
 // Dizi
@@ -601,4 +614,4 @@ let objTuto = () => {
     const javaData=JSON.parse(objectToString).java.name;
     console.log(javaData);
 }
-objTuto();
+// objTuto();
